@@ -7,7 +7,8 @@ async function main() {
   console.log("Owner address = ",owner.address);
   
   const AIVoiceNFT:AIVoiceNFT__factory = await ethers.getContractFactory("AIVoiceNFT");
-  const aiVoiceNFT:AIVoiceNFT = await AIVoiceNFT.deploy(owner.address, "Trump","TrumpVoice","TRUMP", "url");
+  //const aiVoiceNFT:AIVoiceNFT = await AIVoiceNFT.deploy(owner.address, "Trump","TrumpVoice","TRUMP", "url");
+  const aiVoiceNFT:AIVoiceNFT = await AIVoiceNFT.deploy("0x429b697b0Bc1491F298C997140B62760ad2B0E17", "Adam","Adam","ADAM", "https://green-vicarious-wildcat-394.mypinata.cloud/ipfs/bafkreih52un25x5afl4mbxp3nxpnglatrjdzyoufg7szugwfmi66zf5lau");
   await aiVoiceNFT.deployed();
   console.log("AIVoiceNFT deployed to: ", aiVoiceNFT.address);
 
