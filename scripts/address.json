@@ -1,0 +1,27 @@
+{
+    "localhost": {
+        "aiVoiceNFT":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "aiVoiceNFTFactory":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "aiVoiceToken":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "aiVoiceTokenFactory":"0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    },
+    "basetestnet":{
+        "aiVoiceNFT":"0xaf36D13030c6D5F45E13aa84446a87432EC85F8D",
+        "aiVoiceNFTFactory":"0x8FC970d7368C650AF6B44AFD7890Fecb1Cafd333",
+        "aiVoiceToken":"0x15FbeBd2a67ac2F0165Da2a0a65A182827c1BF0E",
+        "aiVoiceTokenFactory":"0xb577A4080819274774bB4be1D64405B4A9bE1E07"
+    },
+    "storytestnet":{
+        "aiVoiceNFT":"0x9dD5381aBf7CB8eBFF17cE7C15217c5aa6DFFF03",
+        "aiVoiceNFTFactory":"0x64bB26eB2E7d69717397C98aAc673Ee2Fb87DF4B",
+        "aiVoiceToken":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "aiVoiceTokenFactory":"0x5FbDB2315678afecb367f032d93F642f64180aa3",
+        "registerAIVoiceAsset":"0x7B46A242FdFA1ab6a81655396cd8767EDc7C0aA2"
+    },
+    "base":{
+        "aiVoiceNFT":"",
+        "aiVoiceNFTFactory":"",
+        "aiVoiceToken":"",
+        "aiVoiceTokenFactory":""
+    }
+}
