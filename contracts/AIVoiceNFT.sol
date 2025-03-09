@@ -54,8 +54,7 @@ contract AIVoiceNFT is ERC721, Pausable, Ownable, ReentrancyGuard{
     }
 
     function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
-        //require(_exists(tokenId), "Token does not exists");
-        return bytes(baseURI).length > 0 ? string(abi.encodePacked(baseURI, tokenId.toString(),".json")) : defaultURI;
+        return baseURI;
     }
 
     function mint(string memory _voiceURL, string memory _emotionLevel1, string memory _emtionLevel2, string memory _emotionLevel3) public payable whenNotPaused nonReentrant returns (uint256){
